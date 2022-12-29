@@ -30,6 +30,7 @@ public interface TopProductCartRepository extends JpaRepository<TopProductCart, 
     //Optional<TopProductCart> findByTitle(String title);
 
 
+
     @Query( "select t from TopProductCart t where t.title = ?1")
     TopProductCart findByName(String title);
   //  Query(value = "select *  from  TopProductCart  where title =  ", nativeQuery = true)

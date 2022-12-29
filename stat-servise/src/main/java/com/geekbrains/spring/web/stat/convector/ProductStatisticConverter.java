@@ -6,6 +6,7 @@ import com.geekbrains.spring.web.stat.dto.ProductStaticDto;
 import com.geekbrains.spring.web.stat.entities.TopProductCart;
 import org.springframework.stereotype.Component;
 
+
 @Component
 public class ProductStatisticConverter {
     public TopProductCart dtoToEntity(ProductStaticDto productStaticDto) {
