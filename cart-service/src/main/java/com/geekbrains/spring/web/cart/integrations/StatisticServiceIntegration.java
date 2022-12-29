@@ -8,6 +8,7 @@ import org.springframework.web.client.RestTemplate;
 
 import java.util.Optional;
 
+
 @Component
 @RequiredArgsConstructor
 public class StatisticServiceIntegration {

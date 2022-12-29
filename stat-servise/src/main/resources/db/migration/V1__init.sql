@@ -7,6 +7,7 @@ create table topproductcart
         updated_at timestamp default current_timestamp
     );
 
+
 --    insert into topproductcart (title, quantity)
 --    values ('Milk', 1),
 --           ('Bread', 1),
