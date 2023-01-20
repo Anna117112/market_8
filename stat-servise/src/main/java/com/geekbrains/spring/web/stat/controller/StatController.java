@@ -33,6 +33,7 @@ public class StatController {
     public ProductDto saveNewProductStatisticDto(@PathVariable Long productId ) {
         ProductDto productDto = productsServiceIntegration.findById(productId);
 
+
        // topProductCart.setQuantity(+1);
         //topProductCart = statisticService.findByName(topProductCart.getTitle()).orElse (statisticService.save(topProductCart));
         TopProductCart topProductCart = statisticService.findByName(productDto.getTitle());

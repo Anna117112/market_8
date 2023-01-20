@@ -10,6 +10,7 @@ import org.springframework.web.client.RestTemplate;
 import javax.persistence.Table;
 import java.util.Optional;
 
+
 @Component
 @RequiredArgsConstructor
 public class ProductsServiceIntegration {

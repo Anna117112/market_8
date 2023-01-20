@@ -17,6 +17,7 @@ public interface TopProductOrderRepository extends JpaRepository<TopProductOrder
 //    @Query("select p from Product p where p.title = ?1")
 //    Optional<Product> findByName(String title);
 }
+
 // @Query("select s from Student s where s.score between ?1 and ?2")
 // поиск по названию метода прописываем этоо медот в сервисе и контр
 //    List<Product> findAllByCostBetween(Integer min, Integer max);

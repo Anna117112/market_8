@@ -21,6 +21,7 @@ public class CartsController {
         return cartConverter.modelToDto(cartService.getCurrentCart(getCurrentCartUuid(username, uuid)));
     }
 
+
     @GetMapping("/generate")
     public StringResponse getCart() {
         return new StringResponse(cartService.generateCartUuid());

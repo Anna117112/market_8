@@ -6,6 +6,7 @@ public class ProductStaticDto {
     private Integer quantity;
 
 
+
     public Integer getQuantity() {
         return quantity;
     }
