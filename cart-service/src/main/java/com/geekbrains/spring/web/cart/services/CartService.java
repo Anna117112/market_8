@@ -22,7 +22,6 @@ public class CartService {
     private final ProductsServiceIntegration productsServiceIntegration;
 
     private final RedisTemplate<String, Object> redisTemplate;
-
     @Value("${utils.cart.prefix}")
     private String cartPrefix;
     // метод формирует имя корзны из префикса и суф
